@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.wrapper {
+    max-width: 350px;
+    margin: 0 auto;
+    color: #666;
+}
+.header, #calc {
+    box-sizing: border-box;
+    text-align: center;
+    /* border: 2px solid #333; */
+}
+
+#calc {
+    border: 2px solid #333;
+}
+
+.header {
+    font-size: 24px;
+    padding: 1rem;
+}
+#calc > div {
+    display: flex;
+} 
+
+input {
+    box-sizing: border-box;
+    width: 75%;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    text-align: right;
+    padding: 0 0.75rem;
+    margin: 0;
+    border-color: #fff;
+}
+
+button {
+    
+    box-sizing: border-box;
+    width: 25%;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    color: #333;
+    vertical-align: middle;
+    border-color: #fff;
+    margin: 0;
+}
+button:hover {
+    border-color: #ddd;
+}
